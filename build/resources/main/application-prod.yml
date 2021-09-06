@@ -1,0 +1,15 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: prod
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://bryn.chwiybj4shvo.ap-northeast-2.rds.amazonaws.com/idausDB?autoReconnect=true&serverTimezone=Asia/Seoul
+    username:  bryn
+    password:  cofls500
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
+    # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d9ce3dfd-3af2-4bcf-87f2-496d5d69553d" name="spring_edu" url="http://brynserver.site">
+        <fileTransfer rootFolder="/var/www/RC_spring_boot" accessType="SFTP" host="13.209.137.112" port="22" sshConfigId="26cfccf4-505d-4f04-95b2-ee3c5e2e9ef2" sshConfig="ubuntu@13.209.137.112:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f68935a0-b36e-454e-aee5-d17ff04a9968" name="idus" url="http://brynserver.site">
+        <fileTransfer rootFolder="/var/www/idus" accessType="SFTP" host="13.209.137.112" port="22" sshConfigId="26cfccf4-505d-4f04-95b2-ee3c5e2e9ef2" sshConfig="ubuntu@13.209.137.112:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" muteSftpMessages="true" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
