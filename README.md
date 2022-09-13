@@ -1,3 +1,6 @@
+라이징 테스트
+
+
 사용한 기술들  
 AWS ec2, RDS. Nginx, MySQL, jwt, https, 리다이렉션, 서브 도메인, 소셜 로그인 등  
 API 명세서 링크  
